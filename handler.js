@@ -1,5 +1,5 @@
 'use strict';
-import axios from 'axios'
+const axios = require('axios')
 
 // レスポンスのクラスを生成
 class Response {

@@ -161,7 +161,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/connpass-api-wrapper/dev/1614952383861-2021-03-05T13:53:03.861Z/connpass-api-wrapper.zip"
+          "S3Key": "serverless/connpass-api-wrapper/dev/1614955460037-2021-03-05T14:44:20.037Z/connpass-api-wrapper.zip"
         },
         "Handler": "handler.hello",
         "Runtime": "nodejs12.x",
@@ -179,14 +179,14 @@
         "HelloLogGroup"
       ]
     },
-    "HelloLambdaVersionpifBhW85sqMMIvAhz0psNeQg3uk02LYDJFnOEbRs": {
+    "HelloLambdaVersionN2S9Pfza5lR5LJnoyEOcO7TigopaqfF1dJhMiZFI": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "HelloLambdaFunction"
         },
-        "CodeSha256": "DoqRZkHDokjEv5VPTjSZnuGbzms/wzimxdlh2jW1c48="
+        "CodeSha256": "L5kkWxpprBBWVnXynpHPrhNovgvZY7OpkpqEwlSWkiE="
       }
     },
     "ApiGatewayRestApi": {
@@ -295,7 +295,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1614952377160": {
+    "ApiGatewayDeployment1614955450700": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -355,7 +355,7 @@
     "HelloLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "HelloLambdaVersionpifBhW85sqMMIvAhz0psNeQg3uk02LYDJFnOEbRs"
+        "Ref": "HelloLambdaVersionN2S9Pfza5lR5LJnoyEOcO7TigopaqfF1dJhMiZFI"
       }
     },
     "ServiceEndpoint": {
