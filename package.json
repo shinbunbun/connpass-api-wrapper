@@ -1,0 +1,24 @@
+{
+  "name": "connpass-api-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sls": "serverless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinbunbun/connpass-api-wrapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinbunbun/connpass-api-wrapper/issues"
+  },
+  "homepage": "https://github.com/shinbunbun/connpass-api-wrapper#readme",
+  "devDependencies": {
+    "serverless": "^2.28.7"
+  }
+}
